@@ -2,17 +2,6 @@ This readme comes with another languages :
 - [English (EN)](README_EN.md)
 - [Bahasa Indonesia (ID)](README.md)
 
-# PREVIEW ONLY
-Fitur utama masih dalam pengembangan dan testing seperti :
-- Modification Safe
-
-Follow project ini untuk mendapatkan update notifikasi.
-
-# THANK YOU
-Sebelumnya saya ingin mengucapkan terimakasih dan apresiasi untuk para kontributor yang sangat luar biasa [Kontributor](CREDITS.md).
-
- - **Joseph Sanjaya** (meet: [joseph](https://github.com/JosephSanjaya)). Original desing dari Konsep dan Terminologi Navigasi yang luarbiasa dalam codebase ini.
- 
 # FREE TO USE
 Anda dapat menggunakan codebase ini sebagai basis proyek anda dan memodifikasinya sesuai kebutuhan proyek anda. Saya membuat codebase ini, dengan harapan codebase ini bisa membantu siapa saja untuk memulai proyek mereka, terutama proyek berskala besar. Saya berterimakasih kepada siapa saja yang menggunakan codebase ini sebagai basis proyek mereka, dikarenakan dengan menggunakan codebase ini, anda turut berkontribusi membantu saya dalam menguji codebase ini. Saya harap dengan lebih banyak orang yang menggunakan codebase ini, akan bisa memberikan input dan masukan atau saran untuk membantu saya mengambangkan codebase ini. Untuk membuat codebase ini menjadi lebih baik dan robust. Saya juga akan sangat merasa senang untuk menerima saran, ide, maupun kontribusi dari anda sekalian untuk proyek ini.
 
@@ -108,16 +97,3 @@ Domain layer sengaja dihapuskan untuk memaksimalkan pendekatan **Pure Function**
 >6. Fungsi hanya bertugas untuk merubah sebuah input menjadi sebuah output baru. Contohnya merubah *Integer* menjadi *String*, atau merubah *Payload* menjadi *Data*  atau memberikan Error / Exception / Either.Left jika proses tidak berhasil.
 4. Pendekatan ini mengharuskan sebuah input yang sama menghasilkan output yang sama. Artinya jika kita berekspektasi untuk mendapatkan output yang berbeda, maka kita harus memberikan input yang berbeda. Contoh kasus jika terjadi perubahan pada bisnis prosess; Sederhananya, setiap bisnis proses yang berbeda harus memiliki *Payload* yang berbeda juga. Dengan demikian, kita tidak perlu mengkhawatirkan perubahan pada bisnis prosess, atau lebih tepatnya kita tidak memiliki konsep perubahan bisnis proses. Akan tetapi kita menggunakan konsep scalling bisnis proses dengan menghadirkan *Pure Function* baru dan *Payload* baru untuk setiap bisnis proses.
 5. Tidak ada lagi interface segregation. Bayangkan sebuah factory object yang mengimplementasikan berbagai macam UseCase sehingga menjadi begitu bulky. Sedangkan, kita hanya membutuhkan 1 buah api saja dari object tersebut, sungguh tidak efisien membuild object tersebut bukan? Ini selalu menjadi dilema antara praktis yang baik dan memori manajemen. Dengan pendekatan pure function, semua itu tidak ada lagi. Untuk semua masalah, yang anda butuhkan hanyalah sebuah fungsi saja.
-
-# Contributing
-Saya akan sangat senang untuk menerima kontribusi dari siappun, dan saya mebuka proyek ini untuk kontribusi. Akan tetapi untuk sekarang saya masih belum sempat menyiapkan prosedur kontribusi. Oleh karena itu, jika anda berminat untuk melakukan kontribusi, anda dapat menghubungi saya secara langsung. Anda dapat menemukan saya pada section author di bawah.
-
-Anda dapat melihat perkembangan proyek ini [disini](https://github.com/users/stefanusayudha/projects/2).
-
-# Meet the Author
-Saya steve, programmer for fun. Anda dapat menemukan saya pada akun berikut:
-
-1. [Instagram @stefanus_ayudha](https://www.instagram.com/stefanus_ayudha/)
-2. [Telegram @stefanus_ayudha](https://t.me/stefanus_ayudha)
-3. [Email @stefanus.ayudha](mailto:stefanus.ayudha@gmail.com)
-4. [Linkedin @stefanus_ayudha](https://www.linkedin.com/in/stefanus-ayudha-447a98b5/)
